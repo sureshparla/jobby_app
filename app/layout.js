@@ -58,7 +58,6 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         {loginPathName === '/login' ? null : <Navbar />}
         {children}
-
         {isVisible && (
         <button className="scroll-to-top" onClick={scrollToTop}>
           <AiOutlineArrowUp />
