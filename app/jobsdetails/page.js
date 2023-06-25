@@ -162,7 +162,7 @@ class jobsdetails extends Component{
                     {/* employment_type */}
 
                     <div>
-                        <h1 className='text-white text-xl font-bold'>Type of Employment</h1>
+                        <h1 className='text-white text-xl font-bold'>Type of Results</h1>
                         <ul>
                         {employmentTypesList.map((eachType) => (
                             <EmploymentType 
